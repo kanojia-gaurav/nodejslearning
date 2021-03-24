@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+<head>
+	<title>Register</title>
+	<!-- Meta encoding -->
+	<meta charset="utf-8"> 
+	<meta name="viewport" content="width=device-width,initial scale=1">
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+
+	<!-- BOOTSTRAP CDN -->
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<!-- BOOTSTRAP CDN END -->
+
+	<!-- icon code -->
+	<link rel="icon" type="image/jpeg" href="">
+
+
+</head>
+<body>
+	{{>navbar}}
+
+	<!-- Registration Form -->
+	<div class="container-fluid" style="padding-top: 4%;" >
+		<h2 style="text-align: center;">Register for Jay Bank</h2>
+		<form method="POST">
+
+            <!-- Row Start -->
+			<div class="row">
+				<div class="col-sm-6 col-sm-offset-3 form-group">
+					<input type="text" name="fname" required="required" class="form-control" placeholder="First Name Here">
+				</div>
+			</div>	
+			<!-- Row End -->
+
+			<!-- Row Start -->
+			<div class="row">
+				<div class="col-sm-6 col-sm-offset-3 form-group">
+					<input type="text" name="lname" required="required" class="form-control" placeholder="Last Name Here">
+				</div>
+			</div>	
+			<!-- Row End -->
+
+            <!-- Row Start -->
+			<div class="row">
+				<div class="col-sm-6 col-sm-offset-3 form-group">
+					<input type="email" name="email" required="required" class="form-control" placeholder="Email Id Here">
+				</div>
+			</div>	
+			<!-- Row End -->
+
+			<!-- Row Start -->
+			<div class="row">
+				<div class="col-sm-6 col-sm-offset-3 form-group">
+					<input type="Number" name="contact" required="required" class="form-control" placeholder="Phone Number Here">
+				</div>
+			</div>	
+			<!-- Row End -->
+
+			<!-- Row Start -->
+			<div class="row">
+				<div class="col-sm-6 col-sm-offset-3 form-group">
+					<input type="Password" name="password" required="required" class="form-control" placeholder="Password">
+				</div>
+			</div>	
+			<!-- Row End -->
+
+			<!-- Row Start -->
+			<div class="row">
+				<div class="col-sm-6 col-sm-offset-3 form-group">
+					<input type="Password" name="cpassword" required="required" class="form-control" placeholder="Confirm Password">
+				</div>
+			</div>	
+			<!-- Row End -->
+
+			<!-- Row Start -->
+			<div class="row">
+				<div class="col-sm-6 col-sm-offset-3 form-group">
+					<input type="submit" class="form-control btn btn-primary">
+				</div>
+			</div>	
+			<!-- Row End -->
+
+		</form>
+	</div>
+
+</body>
+</html>
