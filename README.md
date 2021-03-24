@@ -2,4 +2,4 @@
 
 ## learning node js
 
-### some important features of registration and login and using bcryptjs for securing password.
+### some important features of registration and login and using bcryptjs for securing password.  
